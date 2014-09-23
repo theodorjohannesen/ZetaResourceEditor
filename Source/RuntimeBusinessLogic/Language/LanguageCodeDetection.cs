@@ -329,7 +329,11 @@
 				// Check for non-neutral, first.
 				if (IsNonNeutralLanguageFileName(settings, fileName))
 				{
-					return extractBlock(settings, fileName, PhLanguagecode);
+					//return extractBlock(settings, fileName, PhLanguagecode);
+				    var startLangPos = fileName.IndexOf('_');
+				    var endLangPosition = fileName.IndexOf('.', startLangPos);
+				    var result = fileName.Substring(startLangPos+1, endLangPosition - startLangPos-1);
+				    return result;
 				}
 				else
 				{
@@ -361,7 +365,7 @@
 
 				if (!string.IsNullOrEmpty(baseName))
 				{
-					var pPos = fileName.LastIndexOf('.');
+					var pPos = fileName.LastIndexOf('_');
 					if (pPos > -1 && pPos < fileName.Length - 1)
 					{
 						var possibleCulture = fileName.Substring(pPos + 1);
@@ -385,6 +389,7 @@
 			string fileName
 			)
 		{
+		    return "FarPay";
 			return extractBlock(settings, fileName, PhBasename);
 		}
 

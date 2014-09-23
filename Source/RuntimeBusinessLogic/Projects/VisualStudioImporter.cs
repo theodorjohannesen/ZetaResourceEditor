@@ -1,4 +1,6 @@
-﻿namespace ZetaResourceEditor.RuntimeBusinessLogic.Projects
+﻿using System.IO;
+
+namespace ZetaResourceEditor.RuntimeBusinessLogic.Projects
 {
 	using System;
 	using System.Collections.Generic;
@@ -122,8 +124,10 @@
 						throw new OperationCanceledException();
 					}
 					//other algorithm to determine base name to allow multiple points inside name
-					var baseFileName = LanguageCodeDetection.GetBaseName(Project, filePath.Name);
+                    //var baseFileName = LanguageCodeDetection.GetBaseName(Project, filePath.Name);
 
+                    var info = new FileInfo(filePath.FullName);
+				    var baseFileName = info.Name;
 					var wantAddResourceFile =
 						checkWantAddResourceFile(filePath);
 

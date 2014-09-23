@@ -31,15 +31,19 @@
   <ItemGroup>
     <Reference Include="DevExpress.Data.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.Data.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.Utils.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraEditors.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraVerticalGrid.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraVerticalGrid.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />

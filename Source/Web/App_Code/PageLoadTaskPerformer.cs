@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using Zeta.EnterpriseLibrary.Web;
+//using Zeta.EnterpriseLibrary.Web;
 
 public class PageLoadTaskPerformer
 {
@@ -12,7 +12,7 @@ public class PageLoadTaskPerformer
 	}
 
 	private readonly PageBase _page;
-	private readonly QueryString _qs = new QueryString();
+	//private readonly QueryString _qs = new QueryString();
 
 	public event EventHandler<NeedPerformTaskEventArgs> NeedPerformTask;
 
@@ -66,10 +66,7 @@ public class PageLoadTaskPerformer
 	/// <value>The redirect URL.</value>
 	public string RedirectUrl
 	{
-		get
-		{
-			return QueryString.AllUrl;
-		}
+		get { return string.Empty; }
 	}
 
 	public PageBase Page
@@ -80,16 +77,16 @@ public class PageLoadTaskPerformer
 		}
 	}
 
-	public QueryString QueryString
+	public string QueryString
 	{
 		get
 		{
-			return _qs;
+			return string.Empty;
 		}
 	}
 
 	public void Redirect()
 	{
-		QueryString.Redirect();
+        //QueryString();
 	}
 }

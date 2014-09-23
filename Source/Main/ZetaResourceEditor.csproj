@@ -45,46 +45,87 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="CarlosAg.ExcelXmlWriter">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Data.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.Data.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.Printing.v11.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v11.1.Core">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.RichEdit.v11.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.Utils.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraBars.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraEditors.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraLayout.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v11.1">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraRichEdit.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraSpellChecker.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraSpellChecker.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.SpellChecker.v11.1.Core, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.SpellChecker.v11.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v11.1.Design">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraSpellChecker.v11.1.Design.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraTreeList.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraTreeList.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraVerticalGrid.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraVerticalGrid.v11.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraWizard.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\DevExpress.XtraWizard.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\Program Files\Zeta Resource Editor\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
